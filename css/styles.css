@@ -1,0 +1,10 @@
+:root {
+  --bluegray: #3e5264;
+  --cream: #f7f2dd;
+  --nanogreen: #e1eded;
+  --black: #000000;
+}
+
+h1 {
+  color: var(--bluegray);
+}
