@@ -1,0 +1,103 @@
+/* 
+  https://colorhunt.co/palette/3d3b40525cebbfcfe7f8edff
+  https://colorhunt.co/palette/0000000b60b040a2d8f0edcf
+  
+*/
+
+:root {
+  --bluegray: #3e5264;
+  --cream: #f7f2dd;
+  --nanogreen: #e1eded;
+  --black: #000000;
+  --darkorange: darkorange;
+  
+  --csblue: #044cae;
+  --cslilac: #898eba;
+  --cssnow: #f8f8ff;
+  --cscream: #f1f1e6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: var(--csblue);
+}
+
+body {
+  width: 800px;
+  margin: auto;
+  background-color: var(--cssnow);
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  background-color: var(--cscream);
+  position: sticky;
+  top: 0;
+}
+
+main {
+  text-align: center;
+  padding: 25px 5px;
+}
+
+section {
+  height: 400px;
+  padding: 2% 5%;
+}
+
+h1 {
+  font-size: 3.5vw;
+  color: var(--csblue);
+}
+
+.cscream {
+  background-color: var(--cream);
+}
+ 
+.cslilac {
+  background-color: var(--cslilac);
+}
+
+@media screen and (max-width: 430px) {
+
+  body {
+    width: auto;
+    box-shadow:none;
+
+  } 
+  h1 {
+   
+    font-size: 6vw;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+  }
+
+  .topnav {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+  }
+
+/*   
+  .nav-items {
+    display: none;
+  } 
+*/
+
+
+
+  
+}
