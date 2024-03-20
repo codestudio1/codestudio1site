@@ -15,3 +15,6 @@ jobs:
         username: vscodelogin@codestudio.one
         password: ${{ secrets.ftp_password }}
         protcol: sftp
+        exclude: |
+          **/.git*
+          **/.git*/**
