@@ -5,7 +5,6 @@
 */
 
 :root {
-  --
   --bluegray: #3e5264;
   --cream: #f7f2dd;
   --nanogreen: #e1eded;
@@ -92,9 +91,12 @@ h1 {
     padding: 10px 15px;
   }
 
+/*   
   .nav-items {
-    /* display: none; */
-  }
+    display: none;
+  } 
+*/
+
 
 
   
